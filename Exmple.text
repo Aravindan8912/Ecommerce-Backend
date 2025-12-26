@@ -1,0 +1,19 @@
+# ASP.NET
+ASPNETCORE_ENVIRONMENT=Development
+
+# Order Service DB
+ORDER_DB_HOST=localhost
+ORDER_DB_NAME=order_dev
+ORDER_DB_USER=root
+ORDER_DB_PASSWORD=root
+
+# Kafka
+KAFKA_BOOTSTRAP_SERVERS=localhost:9092
+KAFKA_ORDER_TOPIC=dev.order.events
+
+# Keycloak
+KEYCLOAK_AUTHORITY=http://localhost:8080/realms/ecommerce-dev
+KEYCLOAK_AUDIENCE=order-service
+
+# Logging
+SERILOG_LEVEL=Information
