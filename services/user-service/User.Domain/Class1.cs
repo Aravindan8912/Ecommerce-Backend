@@ -1,4 +1,4 @@
-﻿namespace Auth;
+﻿namespace User.Domain;
 
 public class Class1
 {
